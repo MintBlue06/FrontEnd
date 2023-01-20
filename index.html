@@ -51,7 +51,15 @@
     <div class="card">
       <div class="card-body">
         <h2 class="card-title">Acerca de mi..</h2>
-        <p>Esta tarea la debo entregar antes de Abril de 2023. Pais. Edad. Trabajo.</p>
+        <div class="btn-edit" onclick="changeParagraph()">
+          <a href="" class="btn-right">
+            <i class="bi bi-pencil-fill"></i>
+          </a>
+        </div>
+        <p class="paragraph-2">Esta tarea la debo entregar antes de Abril de 2023. Pais. Edad. Trabajo.</p>
+          <div>
+            <input class="paragraph-2" type="text" oninput="myFunction2(this.value)" style="display:none">
+          </div>
       </div>
 
     </div>
